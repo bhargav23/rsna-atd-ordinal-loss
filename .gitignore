@@ -1,0 +1,37 @@
+# Competition data and derived data: not redistributable, and large
+*.dcm
+*.nii
+*.nii.gz
+*.npz
+processed/
+backfilled/
+train_images/
+segmentations/
+
+# Model weights and intermediate outputs
+*.pt
+*.pth
+*.safetensors
+hf_home/
+models/
+predictions/
+*_oof.csv
+*_oof_probabilities*.csv
+manifest.csv
+failed_log.csv
+backfill_log.csv
+subset_labels.csv
+subset_series_meta.csv
+
+# Python / notebooks
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.venv/
+venv/
+.env
+
+# Editors and OS
+.vscode/
+.idea/
+.DS_Store

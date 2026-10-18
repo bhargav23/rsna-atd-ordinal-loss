@@ -1,0 +1,20 @@
+# The experiments ran as Kaggle notebooks (Python 3.12.13, Tesla T4). The versions of the
+# libraries were not recorded at the time (see Appendix C of the thesis), so nothing is pinned
+# here. Once you have a working environment, pin it with `pip freeze`.
+torch
+timm
+numpy
+pandas
+scikit-learn
+lightgbm
+scipy
+matplotlib
+tqdm
+# Phase 0 (DICOM decoding, NIfTI masks, image resizing)
+pydicom
+nibabel
+opencv-python-headless
+pylibjpeg
+pylibjpeg-libjpeg
+pylibjpeg-rle
+python-gdcm
